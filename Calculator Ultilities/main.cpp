@@ -16,6 +16,7 @@ double a, b;
 
 int main()
 {
+  // Clear console
   system("clear");
   
   int x = 0;
@@ -28,6 +29,7 @@ int main()
   
   switch (x)
   {
+    // Cases for calculating mode
     case 1:
       cout << "Addition Mode\n";
       getInput();
@@ -64,6 +66,7 @@ int main()
 
 void getInput()
 {
+  // Getting input
   cout << "Enter first number: ";
   cin >> a;
   cout << "Enter second number: ";
