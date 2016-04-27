@@ -8,8 +8,66 @@
 
 #include <iostream>
 
-int main(int argc, const char * argv[]) {
-  // insert code here...
-  std::cout << "Hello, World!\n";
-    return 0;
+using namespace std;
+
+void getInput();
+
+double a, b;
+
+int main()
+{
+  system("clear");
+  
+  int x = 0;
+  cout << endl << endl;
+  cout << "Calculator Utility v1\n";
+  cout << "1. Addition\n2. Subtraction\n3. Multiplication\n4. Division" << endl;
+  cout << "Enter option: ";
+  cin >> x;
+  cout << endl;
+  
+  switch (x)
+  {
+    case 1:
+      cout << "Addition Mode\n";
+      getInput();
+      cout << a << " + " << b << " = " << a + b << endl;
+      break;
+    case 2:
+      cout << "Subtraction Mode\n";
+      getInput();
+      cout << a << " - " << b << " = " << a - b << endl;
+      break;
+    case 3:
+      cout << "Multiplication Mode\n";
+      getInput();
+      cout << a << " x " << b << " = " << a * b << endl;
+      break;
+    case 4:
+      cout << "Subtraction Mode\n";
+      getInput();
+      if (b == 0)
+      {
+        cout << "Cannot divide by 0\n";
+        break;
+      }
+      cout << a << " / " << b << " = " << a / b << endl;
+      break;
+    default:
+      cout << "Option invalid\n";
+      break;
+  }
+  cout << endl << endl;
+  
+  return 0;
 }
+
+void getInput()
+{
+  cout << "Enter first number: ";
+  cin >> a;
+  cout << "Enter second number: ";
+  cin >> b;
+  cout << endl;
+}
+
