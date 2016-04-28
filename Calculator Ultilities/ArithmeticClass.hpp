@@ -9,6 +9,7 @@
 #ifndef ArithmeticClass_hpp
 #define ArithmeticClass_hpp
 
+#include <iostream>
 #include <stdio.h>
 
 class ArithmeticClass
@@ -16,10 +17,12 @@ class ArithmeticClass
 public:
   ArithmeticClass(int mode, double a, double b);
   void calc();
+  std::string getAns();
   
 private:
   int mode;
   double a, b, ans;
+  std::string r;
   
 };
 

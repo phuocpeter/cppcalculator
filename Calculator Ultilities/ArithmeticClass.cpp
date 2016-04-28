@@ -16,6 +16,7 @@ ArithmeticClass::ArithmeticClass(int mode, double a, double b)
   this->mode = mode;
   this->a = a;
   this->b = b;
+  calc();
 }
 
 void ArithmeticClass::calc()
@@ -39,5 +40,30 @@ void ArithmeticClass::calc()
       
     default:
       break;
+  }
+}
+
+string ArithmeticClass::getAns()
+{
+  switch (mode) {
+    case 1:
+      r = to_string(a) + " + " + to_string(b) + " = " + to_string(ans);
+      return r;
+    case 2:
+      r = to_string(a) + " - " + to_string(b) + " = " + to_string(ans);
+      return r;
+    case 3:
+      r = to_string(a) + " 𝗑 " + to_string(b) + " = " + to_string(ans);
+      return r;
+    case 4:
+      if (b == 0) {
+        r = "Cannot divided by 0";
+        return r;
+      }
+      r = to_string(a) + " ÷ " + to_string(b) + " = " + to_string(ans);
+      return r;
+    default:
+      r = "Option Invalid";
+      return r;
   }
 }

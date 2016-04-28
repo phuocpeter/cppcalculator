@@ -8,6 +8,7 @@
 
 #include "ArithmeticClass.hpp"
 #include <iostream>
+#include <iomanip>
 
 using namespace std;
 
@@ -21,46 +22,18 @@ int main()
   system("clear");
   
   int x = 0;
-  cout << endl << endl;
-  cout << "Calculator Utility v1\n";
+  cout << endl;
+  cout << "Calculator Utilities v1\n";
   cout << "1. Addition\n2. Subtraction\n3. Multiplication\n4. Division" << endl;
   cout << "Enter option: ";
   cin >> x;
   cout << endl;
   
-  switch (x)
-  {
-    // Cases for calculating mode
-    case 1:
-      cout << "Addition Mode\n";
-      getInput();
-      cout << a << " + " << b << " = " << a + b << endl;
-      break;
-    case 2:
-      cout << "Subtraction Mode\n";
-      getInput();
-      cout << a << " - " << b << " = " << a - b << endl;
-      break;
-    case 3:
-      cout << "Multiplication Mode\n";
-      getInput();
-      cout << a << " x " << b << " = " << a * b << endl;
-      break;
-    case 4:
-      cout << "Subtraction Mode\n";
-      getInput();
-      if (b == 0)
-      {
-        cout << "Cannot divide by 0\n";
-        break;
-      }
-      cout << a << " / " << b << " = " << a / b << endl;
-      break;
-    default:
-      cout << "Option invalid\n";
-      break;
-  }
-  cout << endl << endl;
+  getInput();
+  
+  ArithmeticClass armObject(x, a, b);
+  
+  cout << armObject.getAns() << endl << endl;
   
   return 0;
 }
