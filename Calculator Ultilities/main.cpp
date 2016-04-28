@@ -6,6 +6,7 @@
 //  Copyright © 2016 Tran Thai Phuoc. All rights reserved.
 //
 
+#include "ArithmeticClass.hpp"
 #include <iostream>
 
 using namespace std;
