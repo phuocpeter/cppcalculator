@@ -6,7 +6,12 @@ Calculator Utilities is a simple command line program coded in C++, solving math
 Features
 --------
 
-- Solve Arithmetic Maths (addition, subtraction, multiplication and division)
+- Solve Arithmetic Maths
+  - Addition '+'
+  - Subtraction '-'
+  - Multiplication '*'
+  - Division '/'
+  - Module '%'
 
 Contribute
 ----------
