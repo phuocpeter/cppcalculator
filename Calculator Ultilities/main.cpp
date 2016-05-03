@@ -21,19 +21,18 @@ int main()
   // Clear console
   system("clear");
   
-  int x = 0;
+  int mode = 0;
   cout << endl;
   cout << "Calculator Utilities v1\n";
-  cout << "1. Addition\n2. Subtraction\n3. Multiplication\n4. Division" << endl;
-  cout << "Enter option: ";
-  cin >> x;
+  
+  ArithmeticClass armObj;
+  cin >> mode;
   cout << endl;
   
   getInput();
+  armObj.setValue(mode, a, b);
   
-  ArithmeticClass armObject(x, a, b);
-  
-  cout << armObject.getAns() << endl << endl;
+  cout << armObj.getAns() << endl << endl;
   
   return 0;
 }

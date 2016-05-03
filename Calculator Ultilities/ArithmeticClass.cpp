@@ -11,7 +11,14 @@
 
 using namespace std;
 
-ArithmeticClass::ArithmeticClass(int mode, double a, double b)
+ArithmeticClass::ArithmeticClass()
+{
+  // Initialize Object and display options
+  cout << "1. Addition\n2. Subtraction\n3. Multiplication\n4. Division\n5. Modules" << endl;
+  cout << "Enter option: ";
+}
+
+void ArithmeticClass::setValue(int mode, double a, double b)
 {
   this->mode = mode;
   this->a = a;
@@ -38,6 +45,9 @@ void ArithmeticClass::calc()
       ans = a / b;
       break;
       
+    case 5:
+      ans = (int)a % (int)b;
+      
     default:
       break;
   }
@@ -61,6 +71,13 @@ string ArithmeticClass::getAns()
         return r;
       }
       r = to_string(a) + " ÷ " + to_string(b) + " = " + to_string(ans);
+      return r;
+    case 5:
+      if (b == 0) {
+        r = "Cannot divided by 0";
+        return r;
+      }
+      r = to_string(a) + " % " + to_string(b) + " = " + to_string(ans);
       return r;
     default:
       r = "Option Invalid";

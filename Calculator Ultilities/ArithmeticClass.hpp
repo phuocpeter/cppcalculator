@@ -15,8 +15,8 @@
 class ArithmeticClass
 {
 public:
-  ArithmeticClass(int mode, double a, double b);
-  void calc();
+  ArithmeticClass();
+  void setValue(int mode, double a, double b);
   std::string getAns();
   
 private:
@@ -24,6 +24,7 @@ private:
   double a, b, ans;
   std::string r;
   
+  void calc();
 };
 
 #endif /* ArithmeticClass_hpp */
