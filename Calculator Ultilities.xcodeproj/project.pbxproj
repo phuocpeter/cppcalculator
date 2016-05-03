@@ -28,6 +28,7 @@
 		981242E71CD1500000E26EE6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		981242EE1CD157C000E26EE6 /* ArithmeticClass.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ArithmeticClass.cpp; sourceTree = "<group>"; };
 		981242EF1CD157C000E26EE6 /* ArithmeticClass.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ArithmeticClass.hpp; sourceTree = "<group>"; };
+		98723CAB1CD91CA900F080C9 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +64,7 @@
 				981242E71CD1500000E26EE6 /* main.cpp */,
 				981242EE1CD157C000E26EE6 /* ArithmeticClass.cpp */,
 				981242EF1CD157C000E26EE6 /* ArithmeticClass.hpp */,
+				98723CAB1CD91CA900F080C9 /* README */,
 			);
 			path = "Calculator Ultilities";
 			sourceTree = "<group>";
@@ -245,6 +247,7 @@
 				981242ED1CD1500000E26EE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
