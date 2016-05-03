@@ -17,15 +17,15 @@ Features
 Usages
 ------
 
-- Download [the latest precompiled file](github.com/phuocpeter19/cppcalculator/releases)
+- Download [the latest precompiled file](http://github.com/phuocpeter19/cppcalculator/releases)
 - Run _Calculator Utilities_ in Terminal
 - Enter option as __integer__ to proceed
 
 Contribute
 ----------
 
-- [Issue Tracker](github.com/phuocpeter19/cppcalculator/issues)
-- [Source Code](github.com/phuocpeter19/cppcalculator)
+- [Issue Tracker](http://github.com/phuocpeter19/cppcalculator/issues)
+- [Source Code](http://github.com/phuocpeter19/cppcalculator)
 
 License
 -------
