@@ -32,7 +32,9 @@ int main()
   getInput();
   armObj.setValue(mode, a, b);
   
-  cout << armObj.getAns() << endl << endl;
+  armObj.printAns();
+  
+  cout << endl;
   
   return 0;
 }

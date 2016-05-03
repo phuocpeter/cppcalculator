@@ -17,7 +17,7 @@ class ArithmeticClass
 public:
   ArithmeticClass();
   void setValue(int mode, double a, double b);
-  std::string getAns();
+  void printAns();
   
 private:
   int mode;

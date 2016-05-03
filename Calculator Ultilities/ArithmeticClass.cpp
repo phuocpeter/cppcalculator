@@ -53,34 +53,34 @@ void ArithmeticClass::calc()
   }
 }
 
-string ArithmeticClass::getAns()
+void ArithmeticClass::printAns()
 {
   switch (mode) {
     case 1:
-      r = to_string(a) + " + " + to_string(b) + " = " + to_string(ans);
-      return r;
+      cout << a << " + " << b << " = " << ans << endl;
+      break;
     case 2:
-      r = to_string(a) + " - " + to_string(b) + " = " + to_string(ans);
-      return r;
+      cout << a << " - " << b << " = " << ans << endl;
+      break;
     case 3:
-      r = to_string(a) + " 𝗑 " + to_string(b) + " = " + to_string(ans);
-      return r;
+      cout << a << " * " << b << " = " << ans << endl;
+      break;
     case 4:
       if (b == 0) {
-        r = "Cannot divided by 0";
-        return r;
+        cout << "Cannot divived by 0" << endl;
+        break;
       }
-      r = to_string(a) + " ÷ " + to_string(b) + " = " + to_string(ans);
-      return r;
+      cout << a << " / " << b << " = " << ans << endl;
+      break;
     case 5:
       if (b == 0) {
-        r = "Cannot divided by 0";
-        return r;
+        cout << "Cannot divived by 0" << endl;
+        break;
       }
-      r = to_string(a) + " % " + to_string(b) + " = " + to_string(ans);
-      return r;
+      cout << a << " % " << b << " = " << ans << endl;
+      break;
     default:
-      r = "Option Invalid";
-      return r;
+      cout << "Option invalid" << endl;
+      break;
   }
 }

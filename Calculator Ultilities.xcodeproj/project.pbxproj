@@ -28,7 +28,7 @@
 		981242E71CD1500000E26EE6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		981242EE1CD157C000E26EE6 /* ArithmeticClass.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ArithmeticClass.cpp; sourceTree = "<group>"; };
 		981242EF1CD157C000E26EE6 /* ArithmeticClass.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ArithmeticClass.hpp; sourceTree = "<group>"; };
-		98723CAC1CD91FA200F080C9 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = SOURCE_ROOT; };
+		98723CAD1CD924B800F080C9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +61,7 @@
 		981242E61CD1500000E26EE6 /* Calculator Ultilities */ = {
 			isa = PBXGroup;
 			children = (
-				98723CAC1CD91FA200F080C9 /* README */,
+				98723CAD1CD924B800F080C9 /* README.md */,
 				981242E71CD1500000E26EE6 /* main.cpp */,
 				981242EE1CD157C000E26EE6 /* ArithmeticClass.cpp */,
 				981242EF1CD157C000E26EE6 /* ArithmeticClass.hpp */,

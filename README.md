@@ -2,6 +2,7 @@ Calculator Utilities
 ====================
 
 Calculator Utilities is a simple command line program coded in C++, solving mathematical problems.
+###### Personal C++ program for educational and experience purpose.
 
 Features
 --------
@@ -13,17 +14,25 @@ Features
   - Division '/'
   - Module '%'
 
+Usages
+------
+
+- Download [the latest precompiled file](github.com/phuocpeter19/cppcalculator/releases)
+- Run _Calculator Utilities_ in Terminal
+- Enter option as __integer__ to proceed
+
 Contribute
 ----------
 
-- Issue Tracker: github.com/phuocpeter19/cppcalculator/issues
-- Source Code: github.com/phuocpeter19/cppcalculator
+- [Issue Tracker](github.com/phuocpeter19/cppcalculator/issues)
+- [Source Code](github.com/phuocpeter19/cppcalculator)
 
 License
 -------
 
-The project is licensed under the MIT license.
+The project is licensed under the __MIT license__.
 
+```
 MIT License
 
 Copyright (c) 2016 Phuoc Tran T.
@@ -45,3 +54,5 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+```
+
