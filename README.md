@@ -7,6 +7,7 @@ Calculator Utilities is a simple command line program coded in C++, solving math
 Features
 --------
 
+- Navigatable menus using __integer__
 - Solve Arithmetic Maths
   - Addition '+'
   - Subtraction '-'

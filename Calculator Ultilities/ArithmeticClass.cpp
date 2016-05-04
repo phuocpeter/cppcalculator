@@ -15,19 +15,22 @@ ArithmeticClass::ArithmeticClass()
 {
   // Initialize Object and display options
   cout << "1. Addition\n2. Subtraction\n3. Multiplication\n4. Division\n5. Modules" << endl;
-  cout << "Enter option: ";
 }
 
-void ArithmeticClass::setValue(int mode, double a, double b)
+void ArithmeticClass::setValue(double a, double b)
 {
-  this->mode = mode;
   this->a = a;
   this->b = b;
   calc();
 }
 
+void ArithmeticClass::setMode(int mode) {
+  this->mode = mode;
+}
+
 void ArithmeticClass::calc()
 {
+  // Calculation
   switch (mode) {
     case 1:
       ans = a + b;
@@ -55,6 +58,7 @@ void ArithmeticClass::calc()
 
 void ArithmeticClass::printAns()
 {
+  // Print results
   switch (mode) {
     case 1:
       cout << a << " + " << b << " = " << ans << endl;

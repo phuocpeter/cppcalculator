@@ -16,7 +16,8 @@ class ArithmeticClass
 {
 public:
   ArithmeticClass();
-  void setValue(int mode, double a, double b);
+  void setValue(double a, double b);
+  void setMode(int mode);
   void printAns();
   
 private:
