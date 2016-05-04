@@ -28,6 +28,7 @@
 		981242E71CD1500000E26EE6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		981242EE1CD157C000E26EE6 /* ArithmeticClass.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ArithmeticClass.cpp; sourceTree = "<group>"; };
 		981242EF1CD157C000E26EE6 /* ArithmeticClass.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ArithmeticClass.hpp; sourceTree = "<group>"; };
+		9828C21B1CDA867000B8E817 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		98723CAD1CD924B800F080C9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -45,6 +46,7 @@
 		981242DB1CD1500000E26EE6 = {
 			isa = PBXGroup;
 			children = (
+				9828C21B1CDA867000B8E817 /* .gitignore */,
 				981242E61CD1500000E26EE6 /* Calculator Ultilities */,
 				981242E51CD1500000E26EE6 /* Products */,
 			);
