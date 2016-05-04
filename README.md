@@ -7,7 +7,7 @@ Calculator Utilities is a simple command line program coded in C++, solving math
 Features
 --------
 
-- Navigatable menus using __integer__
+- Navigatable menus using _integer_
 - Solve Arithmetic Maths
   - Addition '+'
   - Subtraction '-'
@@ -15,8 +15,8 @@ Features
   - Division '/'
   - Module '%'
 
-Usages
-------
+Usage
+-----
 
 - Download [the latest precompiled file](http://github.com/phuocpeter19/cppcalculator/releases)
 - Run _Calculator Utilities_ in Terminal
